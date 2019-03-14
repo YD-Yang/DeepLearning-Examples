@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct 26 09:52:36 2017
 
-@author: yyang
 """
 
 import numpy as np
@@ -325,12 +323,3 @@ plt.ylabel('beta')
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 plt.show()
 
-
-
-"""
-save file
-"""
-pickle.dump(simu_model, open('simu_model.pickle', 'wb'))
-simu_model = pickle.load(open('simu_model.pickle', 'rb'))
-
-pickle.dump(simu_model, open('simu_model.pickle', 'wb'))
